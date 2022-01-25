@@ -19,8 +19,9 @@ $device = array(
 echo '<pre>';
 print_r($device);
 
+// Menambah folder app pada root
 
-// // Test Kirim email
+// Test Kirim email
 // ini_set( 'display_errors', 1 );
 // error_reporting( E_ALL );    
 // $from = "testing@rahasia.dev.id";
