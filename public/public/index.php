@@ -1,2 +1,0 @@
-<?php
-echo "PUBLIC CUCU";
