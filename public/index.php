@@ -1,5 +1,7 @@
 <?php
 
+date_default_timezone_set('Europe/London');
+
 require ('../vendor/autoload.php');
 
 $Browser = new foroco\BrowserDetection();
@@ -20,5 +22,11 @@ echo '<pre>';
 print_r($device);
 
 // Hasil Resovle conflick
+
+use Carbon\Carbon;
+
+$sekarang = Carbon::now();
+
+print_r('<br>Sekarang:'. $sekarang);
 
 ?>
