@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "99ceb0c2c6dea9a22bfd84d55566f324",
+    "content-hash": "a5d5861e0dd1a74c1eda88e6ede7c046",
     "packages": [
         {
             "name": "foroco/php-browser-detection",
