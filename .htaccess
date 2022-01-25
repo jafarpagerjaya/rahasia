@@ -1,0 +1,13 @@
+RewriteEngine On
+
+# www to non www
+RewriteCond %{HTTP_HOST} ^www\.belum\.skom\.id [NC]
+RewriteRule ^(.*)$ http://belum.skom.id/$1 [L,R=301]
+ 
+# http to https
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# public_html to public '/public/
+RewriteCond %{REQUEST_URI} !public/
+RewriteRule (.*) /public/$1 [L]
