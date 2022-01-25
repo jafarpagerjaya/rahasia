@@ -1,4 +1,14 @@
 {
+    "name": "rahasia/belum.skom.id",
+    "description": "Testing dan belajar seputar Web Dev",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "jafarpagerjaya",
+            "email": "jafarpager@gmail.com"
+        }
+    ],
     "require": {
         "foroco/php-browser-detection": "^2.3",
         "phpmailer/phpmailer": "^6.5",
