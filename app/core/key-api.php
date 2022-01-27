@@ -1,4 +1,5 @@
 <?php
 $key_api = array {
-    'qris' => 'sembarang'
+    'qris' => 'qris-api-key-000',
+    'ovo' => 'ovo-api-key-001'
 }
