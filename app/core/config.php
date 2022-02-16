@@ -1,3 +1,4 @@
-<?php class Config {
+<?php
+class Config {
     
 }
