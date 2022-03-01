@@ -2,4 +2,3 @@ vendor/
 init.php
 database.sql
 key-api.php
-main/
